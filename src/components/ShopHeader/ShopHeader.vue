@@ -2,7 +2,7 @@
   <div class="shop-header">
     <nav class="shop-nav"
          :style="{backgroundImage:`url(${info.bgImg})`}">
-      <a class="back">
+      <a class="back" @click="$router.back()">
         <i class="iconfont icon-arrow_left"/>
       </a>
     </nav>
@@ -130,6 +130,15 @@
       })
     }
   }
+
+  /*
+  1、mapState得到商家所有信息info
+  2、从info{} 中读取所有需要的值
+  3、点击显示bulletin，点击显示所有support
+  3、遍历supports，得到并显示所有support，并为不同类型的support添加不同的样式（创建一个数组，利用support.type获取类型）
+
+  * */
+
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus" scoped>

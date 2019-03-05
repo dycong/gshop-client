@@ -10,3 +10,6 @@ export const RESET_USER = 'reset_user'  // 退出登录
 export const RECEIVE_GOODS = 'receive_goods'  // 接收商品列表
 export const RECEIVE_RATINGS = 'receive_ratings'  // 接收评价列表
 export const RECEIVE_INFO = 'receive_info'  // 接收商家信息
+export const ADD_FOOD = 'add_food'  // 接收商家信息
+export const REDUCE_FOOD = 'reduce_food'  // 接收商家信息
+export const CLEAR_CART = 'clear_cart' // 清空购物车

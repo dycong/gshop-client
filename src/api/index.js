@@ -29,6 +29,10 @@ export const reqUser = () => ajax(BASE + '/userinfo')
 // [10、用户登出](#10用户登出)<br/>
 export const reqLogout = () => ajax(BASE + '/logout')
 
+// 请求商品列表
 export const reqGoods = () => ajax('/goods')
+// 请求评价
 export const reqRatings = () => ajax('/ratings')
+// 请求商家信息
 export const reqInfo = () => ajax('/info')
+
